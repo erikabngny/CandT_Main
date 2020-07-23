@@ -1,12 +1,15 @@
 """ SITE CONSTANTS GO HERE """
 
-from pages import candtHome as ch#, \
-   # samplePage as smp, \
+from pages import candtHome as ch,\
+    candtWWM as cw,\
+    candtTWM as ct
 
 
 class Pages(object):
     Home = ch.TestCNT
-  #  SamplePage = smp.SamplePage
+    WWM = cw.TestCNTWWM
+    TWM = ct.TestCNTTWM
+
 
 # ENVIRONMENT
 environments = {

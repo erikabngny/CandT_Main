@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5092e46f-03bf-42fc-94b2-d8ccaf253402" name="Default Changelist" comment="" />
+    <list default="true" id="5092e46f-03bf-42fc-94b2-d8ccaf253402" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/candtTWM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/candtWWM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_homepage_links.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_things_we_make.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_why_we_make.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/page_elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/page_elements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/candtHome.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/candtHome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_candt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/environment.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,7 +47,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="pytest in test_candt.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_homepage_links.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="candt_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -40,13 +58,13 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_candt.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_homepage_links.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_candt.py" />
+        <item itemvalue="Python tests.pytest in test_homepage_links.py" />
       </list>
     </recent_temporary>
   </component>
