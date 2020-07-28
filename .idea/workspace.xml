@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5092e46f-03bf-42fc-94b2-d8ccaf253402" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/candtTWM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/candtWWM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_homepage_links.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_things_we_make.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_why_we_make.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/candtSAL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_says_a_lot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/locators/page_elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/page_elements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/candtHome.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/candtHome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_candt.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/environment.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

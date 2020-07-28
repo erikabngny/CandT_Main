@@ -21,6 +21,11 @@ class ThingsWeMakeLocators(object):
     SLIDECONTENT3 = (By.XPATH, '//*[@id="page-thingsWeMake"]//section/div[@id="gsap-slide-2"]//div[@id="gsap-content-2"]/a')
 
 
+class SaysaLotLocators(object):
+    SALCARD = (By.XPATH, '//*[@id="page-saysALot"]//section[1]/a[3]')
+    EMAIL = (By.XPATH, '//input[@id="newsletter_card"]')
+    SUBMIT = (By.XPATH, '//button[@type="submit"]')
+    ERROR = (By.XPATH, '//*[@id="page-saysALot"]//div[@class="src-sites-candt-components-Newsletter-newsletter__validations"]')
 
 
 class NavLocators(object):

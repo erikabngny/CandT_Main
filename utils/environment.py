@@ -2,13 +2,15 @@
 
 from pages import candtHome as ch,\
     candtWWM as cw,\
-    candtTWM as ct
+    candtTWM as ct,\
+    candtSAL as cs
 
 
 class Pages(object):
     Home = ch.TestCNT
     WWM = cw.TestCNTWWM
     TWM = ct.TestCNTTWM
+    SAL = cs.TestCNTSAL
 
 
 # ENVIRONMENT
