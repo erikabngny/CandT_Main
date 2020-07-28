@@ -26,6 +26,28 @@ class SaysaLotLocators(object):
     EMAIL = (By.XPATH, '//input[@id="newsletter_card"]')
     SUBMIT = (By.XPATH, '//button[@type="submit"]')
     ERROR = (By.XPATH, '//*[@id="page-saysALot"]//div[@class="src-sites-candt-components-Newsletter-newsletter__validations"]')
+    SEEMORE = (By.XPATH, '//article[@id="page-saysALot"]//button[@type="button"]')
+
+
+class AbutUsLocators(object):
+    HEADER = (By.XPATH, '//article[@id="page-aboutUs"]//div[@class="src-sites-candt-components-AboutUsHeader-about-us-header__title-container"]')
+    WHATWEDO = (By.XPATH, '//article[@id="page-aboutUs"]//nav[@class="src-sites-candt-components-AboutUsSubNavigation-sub-navigation__list"]/button[1]')
+    OURSERVICES = (By.XPATH, '//article[@id="page-aboutUs"]//nav[@class="src-sites-candt-components-AboutUsSubNavigation-sub-navigation__list"]/button[2]')
+    OUROFFICES = (By.XPATH, '//article[@id="page-aboutUs"]//nav[@class="src-sites-candt-components-AboutUsSubNavigation-sub-navigation__list"]/button[3]')
+    JOINOURTEAM = (By.XPATH, '//article[@id="page-aboutUs"]//nav[@class="src-sites-candt-components-AboutUsSubNavigation-sub-navigation__list"]/button[4]')
+
+#       Location
+    NEWYORK = (By.XPATH, '//article[@id="page-aboutUs"]/section[@class="src-sites-candt-components-OfficeGrid-container"]/ul//a[@href="/location/new-york"]')
+    SF = (By.XPATH, '//article[@id="page-aboutUs"]/section[@class="src-sites-candt-components-OfficeGrid-container"]/ul//a[@href="/location/san-francisco"]')
+    LONDON = (By.XPATH, '//article[@id="page-aboutUs"]/section[@class="src-sites-candt-components-OfficeGrid-container"]/ul//a[@href="/location/london"]')
+    MANILA = (By.XPATH, '//article[@id="page-aboutUs"]/section[@class="src-sites-candt-components-OfficeGrid-container"]/ul//a[@href="/location/manila"]')
+
+#       Job Post
+
+    JOB1 = (By.XPATH, '//article[@id="page-aboutUs"]/section[@class="component src-sites-candt-components-JoinOurTeam-join-our-team"]//ul/li[1]')
+
+#       Contact Module
+    EMAIL = (By.XPATH, '//article[@id="page-aboutUs"]//ul[@class="contact__columns src-sites-candt-components-Contact-contact__columns--general"]/li[2]/span/span')
 
 
 class NavLocators(object):

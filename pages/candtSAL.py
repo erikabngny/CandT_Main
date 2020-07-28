@@ -42,6 +42,11 @@ class TestCNTSAL(BasePage):
         submit.click()
         time.sleep(5)
 
+    def click_see_more_button(self):
+        seemore = self.driver.find_element(*SaysaLotLocators.SEEMORE)
+        seemore.click()
+        time.sleep(5)
+
 
 
 

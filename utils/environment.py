@@ -3,7 +3,8 @@
 from pages import candtHome as ch,\
     candtWWM as cw,\
     candtTWM as ct,\
-    candtSAL as cs
+    candtSAL as cs,\
+    candtAboutUs as ca
 
 
 class Pages(object):
@@ -11,6 +12,7 @@ class Pages(object):
     WWM = cw.TestCNTWWM
     TWM = ct.TestCNTTWM
     SAL = cs.TestCNTSAL
+    ABOUT = ca.TestCNTABOUT
 
 
 # ENVIRONMENT

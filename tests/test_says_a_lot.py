@@ -15,6 +15,8 @@ class TestCNTProject(object):
         on.SAL.go_back_to_previous_page(self)
         on.SAL.submit_invalid_email(self)
         on.SAL.submit_valid_email(self)
+        on.SAL.scrolling_down_page(self)
+        on.SAL.click_see_more_button(self)
 
 
 
