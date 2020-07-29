@@ -59,6 +59,16 @@ class CareerLocators(object):
     CAREERJOB1 = (By.XPATH, '//*[@id="page-careers"]/section/div/section[1]/article[1]/a')
     APPLYNOW = (By.XPATH, '//*[@id="page-jobDetail"]/section/section/div[1]/button')
 
+class ContactLocators(object):
+    EMAIL1 = (By.XPATH, '//div[@id="overlay-portal"]/section[@role="dialog"]//ul//span[.="newbiz@codeandtheory.com"]')
+    NEWSLETTER = (By.XPATH, '//*[@id="newsletter_contact"]')
+    SUBMIT = (By.XPATH, '//*[@type="submit"]')
+
+    TERMOFUSE = (By.XPATH, '//a[@href="/terms-of-use"]')
+    PRIVACY = (By.XPATH, '//a[@href="/privacy-policy"]')
+    SUPPLYCHAIN = (By.XPATH, '//a[@href="/supply-chain-statement"]')
+
+
 class NavLocators(object):
     CANDT_LOGO = (By.XPATH, '//div[@class="src-sites-candt-components-MainNavigation-header__main"]')
 

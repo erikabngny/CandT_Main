@@ -5,7 +5,8 @@ from pages import candtHome as ch,\
     candtTWM as ct,\
     candtSAL as cs,\
     candtAboutUs as ca,\
-    candtCareer as cp
+    candtCareer as cp,\
+    candtContact as co
 
 
 class Pages(object):
@@ -15,6 +16,7 @@ class Pages(object):
     SAL = cs.TestCNTSAL
     ABOUT = ca.TestCNTABOUT
     CAREER = cp.TestCNTCAREER
+    CONTACT = co.TestCNTCONTACT
 
 
 # ENVIRONMENT
