@@ -50,6 +50,15 @@ class AbutUsLocators(object):
     EMAIL = (By.XPATH, '//article[@id="page-aboutUs"]//ul[@class="contact__columns src-sites-candt-components-Contact-contact__columns--general"]/li[2]/span/span')
 
 
+class CareerLocators(object):
+    LocationNY = (By.XPATH, '//article[@id="page-careers"]/section[@class="src-sites-candt-components-CareersJobList-CareersJobList"]//ul/li[1]/button')
+    LocationSF = (By.XPATH, '//article[@id="page-careers"]/section[@class="src-sites-candt-components-CareersJobList-CareersJobList"]//ul/li[2]/button')
+    LocationLONDON = (By.XPATH, '//article[@id="page-careers"]/section[@class="src-sites-candt-components-CareersJobList-CareersJobList"]//ul/li[3]/button')
+    LocationREMOTE = (By.XPATH, '//article[@id="page-careers"]/section[@class="src-sites-candt-components-CareersJobList-CareersJobList"]//ul/li[4]/button')
+
+    CAREERJOB1 = (By.XPATH, '//*[@id="page-careers"]/section/div/section[1]/article[1]/a')
+    APPLYNOW = (By.XPATH, '//*[@id="page-jobDetail"]/section/section/div[1]/button')
+
 class NavLocators(object):
     CANDT_LOGO = (By.XPATH, '//div[@class="src-sites-candt-components-MainNavigation-header__main"]')
 

@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5092e46f-03bf-42fc-94b2-d8ccaf253402" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/candtAboutUs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_about_us.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/candtCareer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_career.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/locators/page_elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/page_elements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/candtSAL.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/candtSAL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_says_a_lot.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_says_a_lot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/environment.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
