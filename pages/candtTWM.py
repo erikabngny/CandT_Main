@@ -39,8 +39,8 @@ class TestCNTTWM(BasePage):
         actions.move_to_element(hero3).perform()
         time.sleep(3)
 
-    def click_on_carousel_slide_1(self):
-        hero1 = self.driver.find_element(*ThingsWeMakeLocators.SLIDECONTENT1)
+    def click_on_carousel_slide_3(self):
+        hero1 = self.driver.find_element(*ThingsWeMakeLocators.SLIDECONTENT3)
         hero1.click()
         time.sleep(5)
 

@@ -37,7 +37,7 @@ class TestCNTSAL(BasePage):
 
     def submit_valid_email(self):
         email = self.driver.find_element(*SaysaLotLocators.EMAIL)
-        email.send_keys("test124@test.com")
+        email.send_keys("test1245@test.com")
         submit = self.driver.find_element(*SaysaLotLocators.SUBMIT)
         submit.click()
         time.sleep(5)

@@ -8,9 +8,9 @@ class HomepageLocators(object):
     THINGSWEMAKE = (By.XPATH, '//*[@id="page-home"]//a[@title="The Things We Make - Our Work"]')
     SAYSALOT = (By.XPATH, '//*[@id="page-home"]//a[@title="Says a Lot - Media & Mentions"]')
     ABOUT_US = (By.XPATH, '//*[@id="page-home"]//a[@title="About Us - Everything Else"]')
-    CAREERS = (By.XPATH, '//*[@id="page-home"]//a[@href="/careers"]')
-    CONTACT = (By.XPATH, '//*[@id="page-home"]//li[2]/button')
-    SEARCH = (By.XPATH, '//*[@id="page-home"]//li[3]/button')
+    CAREERS = (By.XPATH, '//*[@id="main-content"]//ul[3]//a[@href="/careers"]')
+    CONTACT = (By.XPATH, '//*[@id="main-content"]//li[2]/button')
+    SEARCH = (By.XPATH, '//*[@id="main-content"]//li[3]/button')
 
     CONTACT_CLOSE = (By.XPATH, '//div[@id="overlay-portal"]//button[@class="src-sites-candt-components-ContactOverlay-contactOverlay__close"]')
     SEARCH_CLOSE = (By.XPATH, '//div[@id="overlay-portal"]//button[@class="src-sites-candt-components-SearchOverlay-searchOverlay__close"]')
@@ -67,6 +67,14 @@ class ContactLocators(object):
     TERMOFUSE = (By.XPATH, '//a[@href="/terms-of-use"]')
     PRIVACY = (By.XPATH, '//a[@href="/privacy-policy"]')
     SUPPLYCHAIN = (By.XPATH, '//a[@href="/supply-chain-statement"]')
+
+class SearchLocators(object):
+    SEARCHINPUT = (By.XPATH, '//*[@id="search"]')
+    # RESULTCOUNT = (By.XPATH, '//*[@id="searchOverlay"]/div/div[2]/div[2]/p')
+    RESULTCOUNT = (By.CLASS_NAME, 'src-sites-candt-components-SearchOverlay-searchOverlay__resultCount')
+    FIRSTCARD = (By.XPATH, '//*[@id="searchOverlay"]/div/div[3]/a[1]')
+    NORESULT = (By.XPATH, '//*[@id="searchOverlay"]/div/p')
+
 
 
 class NavLocators(object):

@@ -14,7 +14,7 @@ class TestCNTProject(object):
         on.TWM.hover_on_carousel_slide_2(self)
         on.TWM.hover_on_carousel_slide_3(self)
         on.TWM.hover_on_carousel_slide_1(self)
-        on.TWM.click_on_carousel_slide_1(self)
+        on.TWM.click_on_carousel_slide_3(self)
 
 
 
