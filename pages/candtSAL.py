@@ -20,7 +20,7 @@ class TestCNTSAL(BasePage):
     def click_on_sal_card(self):
         salcard = self.driver.find_element(*SaysaLotLocators.SALCARD)
         salcard.click()
-        time.sleep(5)
+        time.sleep(10)
 
     def go_back_to_previous_page(self):
         self.driver.execute_script("window.history.go(-1)")
@@ -28,16 +28,27 @@ class TestCNTSAL(BasePage):
 
     def submit_invalid_email(self):
         email = self.driver.find_element(*SaysaLotLocators.EMAIL)
-        email.send_keys(" ")
+        email.send_keys("test113@test")
         submit = self.driver.find_element(*SaysaLotLocators.SUBMIT)
         submit.click()
         time.sleep(2)
-        error = self.driver.find_element(*SaysaLotLocators.ERROR)
-        assert error is not None, "Error message is not present"
+        validation = self.driver.find_element(*SaysaLotLocators.VALIDATION)
+        validation_text = validation.text
+        success_msg = "Success! Thanks for signing up."
+
+        if validation_text == success_msg:
+            print("Test Result Incorrect: Email is valid")
+        else:
+            print("Test Result Correct: Email is invalid")
+
+
+    def clear_email_field(self):
+        self.driver.find_element(*SaysaLotLocators.EMAIL).clear()
+
 
     def submit_valid_email(self):
         email = self.driver.find_element(*SaysaLotLocators.EMAIL)
-        email.send_keys("test1245@test.com")
+        email.send_keys("test221@test.com")
         submit = self.driver.find_element(*SaysaLotLocators.SUBMIT)
         submit.click()
         time.sleep(5)

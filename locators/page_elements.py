@@ -25,7 +25,7 @@ class SaysaLotLocators(object):
     SALCARD = (By.XPATH, '//*[@id="page-saysALot"]//section[1]/a[3]')
     EMAIL = (By.XPATH, '//input[@id="newsletter_card"]')
     SUBMIT = (By.XPATH, '//button[@type="submit"]')
-    ERROR = (By.XPATH, '//*[@id="page-saysALot"]//div[@class="src-sites-candt-components-Newsletter-newsletter__validations"]')
+    VALIDATION = (By.XPATH, '//*[@id="page-saysALot"]//div[@class="src-sites-candt-components-Newsletter-newsletter__validations"]/span')
     SEEMORE = (By.XPATH, '//article[@id="page-saysALot"]//button[@type="button"]')
 
 
